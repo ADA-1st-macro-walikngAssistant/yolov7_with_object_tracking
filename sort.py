@@ -400,7 +400,7 @@ if __name__ == '__main__':
     if display:
         if not os.path.exists('mot_benchmark'):
             print(
-                '\n\tERROR: MOT 벤치마크 링크 없음\n\n    MOT 벤치마크에 심볼릭 링크 추가\n    (https://motchallenge.net/data/2D_MOT_2015/#download). 예:\n\n    $ ln -s /path/to/MOT2015_challenge/2DMOT2015 mot_benchmark\n\n')
+                '\n\tERROR: MOT 벤치마크 링크 없음\n\n    새 MOT 벤치마크에 심볼릭 링크 추가\n    (https://motchallenge.net/data/2D_MOT_2015/#download). 예:\n\n    $ ln -s /path/to/MOT2015_challenge/2DMOT2015 mot_benchmark\n\n')
         exit()
 
     plt.ion()
